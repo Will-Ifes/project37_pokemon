@@ -4,17 +4,18 @@ Catálogo de Pokémon em JavaScript que consulta a PokéAPI e monta cartões com
 
 **HTML · CSS · JavaScript**
 
-## Contexto
-
 Exercício de interface da série 50 Projects, mantido também separadamente para explorar consumo de API e manipulação do DOM.
 
-## O que o projeto apresenta
+## Destaques
 
 - Consulta assíncrona de Pokémon por identificador.
 - Criação de cartões no DOM a partir da resposta da API.
 - Cores associadas ao tipo e número formatado com zeros à esquerda.
 
-## Por dentro do código
+<details>
+<summary><strong>Organização e código</strong></summary>
+
+### Por dentro do código
 
 | Arquivo | Responsabilidade |
 | --- | --- |
@@ -22,7 +23,12 @@ Exercício de interface da série 50 Projects, mantido também separadamente par
 | [`index.html`](index.html) | Container do catálogo. |
 | [`style.css`](style.css) | Estilização dos cartões. |
 
-## Executar localmente
+</details>
+
+<details>
+<summary><strong>Executar e consultar</strong></summary>
+
+### Executar localmente
 
 Clone o projeto e sirva a pasta com um servidor estático. Com Python 3 instalado:
 
@@ -34,9 +40,14 @@ python3 -m http.server 8080
 
 Abra http://localhost:8080. Não há instalação de dependências ou etapa de build.
 
-## Escopo e evolução
+</details>
+
+<details>
+<summary>Escopo e referências</summary>
 
 A implementação consulta até 898 registros em sequência, sem paginação ou tratamento completo de falhas. Carregamento sob demanda, cache e estados de erro são caminhos de evolução. Depende de acesso à PokéAPI e aos sprites externos.
+
+</details>
 
 ---
 
