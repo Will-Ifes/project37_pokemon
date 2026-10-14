@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./.github/readme-cover.svg" alt="Pokédex: Da resposta da API ao cartão na tela." width="100%" />
+</p>
+
 # Pokédex · consumo de API e cartões dinâmicos
 
 Catálogo de Pokémon em JavaScript que consulta a PokéAPI e monta cartões com nome, número, imagem e tipo.
@@ -5,6 +9,13 @@ Catálogo de Pokémon em JavaScript que consulta a PokéAPI e monta cartões com
 **HTML · CSS · JavaScript**
 
 Exercício de interface da série 50 Projects, mantido também separadamente para explorar consumo de API e manipulação do DOM.
+
+## Explore o diferencial
+
+| Ponto de entrada | O que observar |
+| --- | --- |
+| [Dados viram interface](script.js) | Nome, número e tipo recebidos da API determinam o conteúdo dos cartões. |
+| [Identidade por tipo](style.css) | A folha de estilos organiza a apresentação visual do catálogo. |
 
 ## Destaques
 
